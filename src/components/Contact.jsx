@@ -21,7 +21,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#212121] mb-2">
+          <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold text-[#212121] mb-2">
             Contact <span className="bg-[#C18b43] bg-clip-text text-transparent">Me</span>
           </h2>
           <div className="w-24 h-1 bg-[#C18b43] mx-auto mt-4 rounded-full" />
