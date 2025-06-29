@@ -144,10 +144,18 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
             >
               <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#C18B43] rounded-full group-hover:w-64 group-hover:h-64"></span>
-              <span className="relative text-sm sm:text-base font-semibold flex items-center gap-2">
-                <FiDownload size={18} />
-                My Resume
-              </span>
+              <a 
+                href="/kishor_resume.pdf"
+                target="_blank" 
+                rel="noopener noreferrer"
+                download
+              >
+                <span className="relative text-sm sm:text-base font-semibold flex items-center gap-2">
+                  <FiDownload size={18} />
+                  My Resume
+                </span>
+              </a>
+
             </motion.button>
           </div>
         </motion.div>

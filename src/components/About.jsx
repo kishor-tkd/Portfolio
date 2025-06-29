@@ -13,22 +13,22 @@ export default function About() {
 
   const experience = [
     {
-      year: "2021-Present",
-      role: "Senior MERN Developer",
-      company: "Tech Innovations Inc.",
-      description: "Leading team to build scalable web applications with React, Node.js, and MongoDB.",
+      year: "2022-2026",
+      role: "Student",
+      company: "VELTECH UNIVERSITY",
+      description: "Pursuing B.Tech in Computer Science and Engineering. Passionate about full-stack web and mobile app development, UI/UX design, and integrating AI technologies into real-world applications",
     },
     {
-      year: "2018-2021",
-      role: "Full Stack Developer",
-      company: "Digital Solutions Co.",
-      description: "Developed and maintained multiple client projects using the MERN stack.",
+      year: "2020-2022",
+      role: "Student",
+      company: "ICF SJ MAT HR SEC SCHOOL",
+      description: "Completed Higher Secondary Education with a focus on Mathematics and Computer Science",
     },
     {
-      year: "2016-2018",
-      role: "Frontend Developer",
-      company: "Web Creators LLC",
-      description: "Implemented responsive UIs and collaborated with backend teams.",
+      year: "2019-2020",
+      role: "Student",
+      company: "JAIGOPAL GaRODIA MAT HR SRC",
+      description: "Completed SSLC (Secondary School Leaving Certificate) with a strong foundation in academics and extracurricular activities",
     },
   ];
 
@@ -68,15 +68,12 @@ export default function About() {
           >
             <h3 className="text-2xl font-semibold text-[#C18B43]">Who I Am</h3>
             <p className="text-[#FFFFF0] text-lg leading-relaxed">
-              I'm a passionate Full Stack Developer specializing in the MERN stack with over 5 years of
-              experience creating robust web applications. From debugging nightmares to architecting
-              scalable solutions, I've transformed complex problems into elegant, user-friendly
-              experiences.
+              I am a passionate fresher with immense interest and excitement for technology and development. I’m eager to learn, build, and grow in the field of Full Stack Development. With a strong curiosity and enthusiasm for creating impactful digital solutions, I aim to turn ideas into reality through clean code, creative design, and continuous learning.
+
             </p>
             <p className="text-[#FFFFF0] text-lg leading-relaxed">
-              When I'm not coding, you'll find me contributing to open-source projects, exploring new
-              technologies, or mentoring aspiring developers. I believe in writing clean, maintainable
-              code and staying at the forefront of web development trends.
+              When I'm not coding, you'll find me exploring new technologies, learning from open-source projects, and staying updated with the latest trends in web development. I believe in writing clean, maintainable code and continuously improving my skills to grow as a developer.
+
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
@@ -133,7 +130,7 @@ export default function About() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-[#FFFFF0] mb-6">Experience</h3>
+              <h3 className="text-2xl font-semibold text-[#FFFFF0] mb-6">Education</h3>
               <div className="space-y-6 relative before:absolute before:left-7 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-[#C18B43] before:via-[#fffff0] before:to-[#C18B43] before:-translate-x-1/2">
                 {experience.map((exp, index) => (
                   <motion.div

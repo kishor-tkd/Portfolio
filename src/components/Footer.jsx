@@ -138,7 +138,7 @@ export default function Footer() {
             >
               <FaHeart size={14} />
             </motion.span>
-            <a href="https://rajkaran.cookie.org.in/">by Raj Karan</a>
+            <p>by KISHOR A R</p>
           </div>
         </motion.div>
       </div>
