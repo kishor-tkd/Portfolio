@@ -106,7 +106,7 @@ export default function Contact() {
                 </p>
                 
                 <div className="flex flex-col space-y-2">
-                  <a href="mailto:arkishortkd@outlook.com" className="text-[#C18B43] hover:underline flex items-center gap-2">
+                  <a href="mailto:arkishortkd@outlook.com" className="text-[#C18B43] hover:underline hover:text-[#FFFFF0] flex items-center gap-2">
                     <MdEmail /> arkishortkd@outlook.com
                   </a>
                 </div>
@@ -121,7 +121,7 @@ export default function Contact() {
                     href="http://github.com/kishor-tkd"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#C17B43] transition-colors"
+                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#FFFFF0] transition-colors"
                     aria-label="GitHub Profile"
                   >
                     <FaGithub size={20} />
@@ -131,7 +131,7 @@ export default function Contact() {
                     href="https://linkedin.com/in/arkishor"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#C17B43] transition-colors"
+                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#FFFFF0] transition-colors"
                     aria-label="LinkedIn Profile"
                   >
                     <FaLinkedin size={20} />
@@ -141,7 +141,7 @@ export default function Contact() {
                     href="https://x.com/kishor__tkd"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#C17B43] transition-colors"
+                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#FFFFF0] transition-colors"
                     aria-label="LinkedIn Profile"
                     >
                     <FaXTwitter size={20} />
@@ -151,7 +151,7 @@ export default function Contact() {
                     href="https://www.instagram.com/kishor__tkd"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#C17B43] transition-colors"
+                    className="bg-[#C18B43] p-3 rounded-full text-[#212121] hover:bg-[#FFFFF0] transition-colors"
                     aria-label="LinkedIn Profile"
                   >
                     <GrInstagram size={20} />

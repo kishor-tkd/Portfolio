@@ -29,8 +29,8 @@ export default function Skills() {
       title: "Frontend",
       icon: <SiReact className="w-6 h-6" aria-label="Frontend" />,
       skills: [
-        { name: "React", icon: <SiReact className="w-5 h-5" aria-label="React" />, level: 95 },
-        { name: "JavaScript", icon: <SiJavascript className="w-5 h-5" aria-label="JavaScript" />, level: 95 },
+        { name: "React", icon: <SiReact className="w-5 h-5" aria-label="React" />, level: 90 },
+        { name: "JavaScript", icon: <SiJavascript className="w-5 h-5" aria-label="JavaScript" />, level: 85 },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" aria-label="Tailwind CSS" />, level: 90 },
       ]
     },
@@ -38,16 +38,16 @@ export default function Skills() {
       title: "Backend",
       icon: <FaServer className="w-6 h-6" aria-label="Backend" />,
       skills: [
-        { name: "Node.js", icon: <SiNodedotjs className="w-5 h-5" aria-label="Node.js" />, level: 90 },
-        { name: "Express", icon: <SiExpress className="w-5 h-5" aria-label="Express" />, level: 85 },
+        { name: "Node.js", icon: <SiNodedotjs className="w-5 h-5" aria-label="Node.js" />, level: 75 },
+        { name: "Express", icon: <SiExpress className="w-5 h-5" aria-label="Express" />, level: 70 },
       ]
     },
     {
       title: "Database",
       icon: <FaDatabase className="w-6 h-6" aria-label="Database" />,
       skills: [
-        { name: "MongoDB", icon: <SiMongodb className="w-5 h-5" aria-label="MongoDB" />, level: 85 },
-        { name: "MySQL", icon: <SiMysql className="w-5 h-5" aria-label="MySQL" />, level: 80 },
+        { name: "MongoDB", icon: <SiMongodb className="w-5 h-5" aria-label="MongoDB" />, level: 80 },
+        { name: "MySQL", icon: <SiMysql className="w-5 h-5" aria-label="MySQL" />, level: 85 },
       ]
     },
     {
